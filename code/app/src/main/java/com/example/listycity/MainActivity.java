@@ -1,3 +1,10 @@
+/*
+Class Name: MainActivity
+Date: 14/01/2025
+CopyRight: Suryansh Khranger, for learning purposes, template code from Eclass
+*/
+
+// Package and Imports
 package com.example.listycity;
 
 import android.os.Bundle;
@@ -20,13 +27,14 @@ import androidx.core.view.WindowInsetsCompat;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+// Class
 public class MainActivity extends AppCompatActivity {
 
     // variables
-    ListView cityList;
-    ArrayAdapter<String> cityAdapter;
-    ArrayList<String> dataList;
-    String selectedCity = null;         // var to store currently selected city
+    private ListView cityList;
+    private ArrayAdapter<String> cityAdapter;
+    private ArrayList<String> dataList;
+    private String selectedCity = null;         // var to store currently selected city
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
